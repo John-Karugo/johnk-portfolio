@@ -1,19 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&display=swap')
+
     /* Reset default margin and padding */
 body, ul {
     margin: 0;
     padding: 0;
+    overflow: hidden;
   }
   
   /* Style the navigation bar */
   .navbar {
-    background-color: #333; /* Dark background color */
-  }
+    background-color: aqua;
+    overflow: hidden;
+
   
   .nav-list {
     list-style-type: none; /* Remove default list bullets */
     margin: 0;
     padding: 0;
+    text-align: center;
+    color: blueviolet;
   }
   
   .nav-list li {
@@ -24,11 +28,11 @@ body, ul {
     display: block; /* Make anchor tags block-level */
     padding: 1rem; /* Add padding around anchor tags */
     text-decoration: none; /* Remove default underline */
-    color: #fff; /* Text color */
+    color: black;
   }
   
   .nav-list li a:hover {
-    background-color: #555; /* Darken background color on hover */
+    background-color: #f50505; /* Darken background color on hover */
   }
   h1{
         font-family: "Stick No Bills", sans-serif;
